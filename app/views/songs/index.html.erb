@@ -1,1 +1,5 @@
 <h1>Songs index Page</h1>
+
+<% @songs.each do |s| %>
+<%= s.artist_name - s.title %>
+<% end %>
