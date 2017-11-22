@@ -9,5 +9,5 @@
 a = Artist.create(name: "adele")
 b = Song.create(title: "hello")
 b.artist = a
-a.save 
+a.save
 b.save
