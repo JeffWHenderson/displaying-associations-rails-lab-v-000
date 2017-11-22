@@ -1,7 +1,7 @@
 <h1>Artists index page</h1>
 
 <ul>
-  <% @artists.songs.each do |a| %>
+  <% @artists.each do |a| %>
     <li><%= link_to a.name, artist_path(a) %></li>
   <% end %>
 </ul>
