@@ -2,7 +2,7 @@ This IS DEFINITELY THE INDEX PAGE
 
 <ul>
   <% @artists.each do |a| %>
-    <li><%= link_to artist_path(a) %></li>
+    <li><%= link_to a.name, artist_path(a) %></li>
   <% end %>
 </ul>
 
